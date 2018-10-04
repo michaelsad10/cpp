@@ -74,13 +74,13 @@ void Dog::toString(){
 }
 
 int main(){
+    Animal* animalptr; 
     Animal fred; 
-    fred.setHeight(33); 
-    fred.setWeight(10); 
-    fred.setName("fred");
+    animalptr = &fred; 
+    animalptr -> setHeight(33); 
+    animalptr -> setWeight(10); 
+    animalptr ->  setName("fred");
     Dog spot(38,15,"spot","woof"); 
-    cout << "Number of Animals" << Animal::getNumOfAnimals() << endl; 
-    cout << fred.getName() << " is " << fred.getHeight() << " cms tall and " << fred.getWeight() << "kgs in weight" << endl; 
     spot.getSound(); 
     spot.toString();
     spot.Animal::toString(); 
