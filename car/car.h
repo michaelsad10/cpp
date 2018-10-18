@@ -12,7 +12,7 @@ class Car{
 
 class Convert : public Car{
     public:
-        bool getRoof(bool b);
+        bool gotRoof(bool b);
         int getSpeed(int sped); 
     private:
         bool roof; 
