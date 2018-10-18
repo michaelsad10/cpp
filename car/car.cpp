@@ -8,7 +8,7 @@ Car::Car(){
 int Car::getSpeed(int sped){
    return this -> speed = sped; 
 }
-bool Convert::getRoof(bool boo){
+bool Convert::gotRoof(bool boo){
     return this -> roof = boo; 
 }
 int Convert::getSpeed(int sped){
